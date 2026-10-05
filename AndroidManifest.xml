@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.manz.leanbackhook"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <application
+        android:label="Spotify TV Leanback Hook"
+        android:hasCode="true">
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Spoof Leanback &amp; UI mode, broadcast MediaSession for DeskClock, and force split-screen compatibility on Echo Show 8" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" />
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposedscope" />
+    </application>
+</manifest>

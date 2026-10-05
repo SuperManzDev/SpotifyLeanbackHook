@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposedscope">
+        <item>com.spotify.tv.android</item>
+        <item>ph.spacedesk.beta</item>
+        <item>com.nxd1frnt.clockdesk2</item>
+    </string-array>
+</resources>
